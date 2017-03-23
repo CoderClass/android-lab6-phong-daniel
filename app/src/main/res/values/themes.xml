@@ -13,8 +13,16 @@
         <item name="actionBarStyle">@style/action_bar_wh</item>
     </style>
 
-    <style name="Theme.YOUR_CUSTOM_THEME" parent="Theme.AppCompat.Light">
+    <style name="Theme.Sexy_Daniel" parent="Theme.AppCompat.Light">
         <!-- Define styles for YOUR_CUSTOM_THEME here. -->
+        <item name="pageBackground">@style/page_background_custom</item>
+        <item name="textSubheader">@style/text_subheader_custom</item>
+        <item name="textLarge">@style/text_large_custom</item>
+        <item name="textRegular">@style/text_regular_custom</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorControlNormal">@color/primary</item>
+        <item name="colorControlHighlight">@color/accent</item>
     </style>
+
 
 </resources>

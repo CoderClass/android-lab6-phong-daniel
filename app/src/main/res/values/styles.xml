@@ -85,5 +85,32 @@
     <!-- Customize YOUR_CUSTOM_THEME Styles -->
     <!-- Define your own styles below. -->
     <!-- =============================================================== -->
+    <style name="page_background_custom" >
+        <item name="android:background">@drawable/purple_white_gradient_background</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
 
+    <style name="text_subheader_custom">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">@dimen/text_subheader_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#000</item>
+    </style>
+
+    <style name="text_large_custom">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/text_large_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#888</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/text_large_margin_top</item>
+    </style>
+
+    <style name="text_regular_custom">
+        <item name="android:textSize">@dimen/text_regular_text_size</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
 </resources>
