@@ -13,7 +13,7 @@
         <item name="actionBarStyle">@style/action_bar_wh</item>
     </style>
 
-    <style name="Theme.Sexy_Daniel" parent="Theme.AppCompat.Light">
+    <style name="Theme.Sexy_Daniel" parent="Theme.AppCompat">
         <!-- Define styles for YOUR_CUSTOM_THEME here. -->
         <item name="pageBackground">@style/page_background_custom</item>
         <item name="textSubheader">@style/text_subheader_custom</item>
@@ -22,6 +22,10 @@
         <item name="colorControlActivated">@color/accent</item>
         <item name="colorControlNormal">@color/primary</item>
         <item name="colorControlHighlight">@color/accent</item>
+        <item name="whiteBackground">@style/white_background_custom</item>
+        <item name="button">@style/button_custom</item>
+        <item name="spinner">@style/spinner_custom</item>
+        <item name="actionBarStyle">@style/action_bar_custom</item>
     </style>
 
 

@@ -86,13 +86,13 @@
     <!-- Define your own styles below. -->
     <!-- =============================================================== -->
     <style name="page_background_custom" >
-        <item name="android:background">@drawable/purple_white_gradient_background</item>
+        <item name="android:background">@drawable/purple_black_gradient_background</item>
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
     </style>
 
     <style name="text_subheader_custom">
-        <item name="android:textColor">@color/accent</item>
+        <item name="android:textColor">@color/primary</item>
         <item name="android:textSize">@dimen/text_subheader_text_size</item>
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1</item>
@@ -111,6 +111,29 @@
 
     <style name="text_regular_custom">
         <item name="android:textSize">@dimen/text_regular_text_size</item>
-        <item name="android:textColor">@color/accent</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="white_background_custom">
+        <item name="android:background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+        <item name="android:padding">@dimen/white_background_padding</item>
+    </style>
+
+    <style name="button_custom" parent="text_large_wh">
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:layout_marginTop">@dimen/view_margin</item>
+    </style>
+
+    <style name="spinner_custom">
+        <item name="android:background">@drawable/spinner_custom_background</item>
+    </style>
+
+    <color name="actionbar_bg_custom">@color/primary</color>
+
+    <style name="action_bar_custom" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/actionbar_bg_custom</item>
+        <item name="background">@color/actionbar_bg_custom</item>
     </style>
 </resources>

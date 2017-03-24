@@ -2,6 +2,7 @@
 <resources>
     <!-- This is declaring the XML attributes that can be set within a theme. -->
     <!-- Check the "res/values/themes.xml" file for examples of these attributes being set.  -->
+    <!-- These are arbitrary names and they are assigned to views in activity_theme.xml -->
     <attr name="pageBackground" format="reference" />
     <attr name="textSubheader" format="reference" />
     <attr name="textLarge" format="reference" />
